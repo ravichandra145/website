@@ -1,0 +1,362 @@
+html {
+    min-height: 100%;
+    overflow-y: scroll;
+}    
+
+body{
+    background-color: #0b1930;
+    padding-bottom: 20px;
+}
+
+.navbar{
+    background-color: #0b1930;
+    height: 60px;
+}
+
+.sidebar{
+ width: 100px;
+ padding-top: 250px;
+ display: inline-block;
+ position: absolute;
+ margin-left: 30px;
+ position: fixed;
+}
+
+.top-container{
+    display: inline-block;
+    left: 20%;
+    padding-top: 80px;
+    position: absolute;
+    display: inline-block;
+    width: fit-content;
+}
+
+.line-1{
+    font-weight: 200;
+    color: #64ffda;
+    font-family: 'Fira Code', monospace;
+
+}
+
+.name{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    color: #ccd7f5;
+    font-size: 65px;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    
+}
+
+.me{
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+    color: #8893af;
+    font-size: 65px;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+.paragraph{
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-top: 4%;
+    margin-bottom: 0%;
+
+    color: #8893af;
+    font-size: 15px;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+.know-me{
+    font-family: 'Fira Code', monospace;
+    font-weight: 100;
+    margin-top: 50px;
+    cursor: pointer;
+    background: transparent;
+    color: #64ffda;
+    font-size: 16px;
+    border-color: #64ffda;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    padding: 13px 50px;
+}
+
+.about-me{
+    position:absolute;
+    padding-top: 800px;
+    left: 20%;
+
+}
+
+.about-myself{
+    justify-content: center;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-top: 4%;
+    margin-bottom: 0%;
+    color: #8893af;
+    font-size: 17px;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+.heading-about-me{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    color: #ccd7f5;
+    font-size: 25px;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+
+}
+
+
+
+li {
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 25px;
+    color: #8893af;
+    list-style-type: none;
+    position: relative;
+    padding-left: 15px;
+  }
+
+  li:before {
+    color: #64ffda;
+    content: "\27A4";
+    font-size: 12px;
+    position: absolute;
+    top: 5px;
+    left: -10px;
+  }
+
+  .resume-btn{
+    position: relative;
+    left: 90%;
+    font-family: 'Fira Code', monospace;
+    font-weight: 100;
+    margin-top: 30px;
+    cursor: pointer;
+    background: transparent;
+    color: #64ffda;
+    font-size: 12px;
+    border-color: #64ffda;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    padding: 13px 30px;
+  }
+  .resume-btn:hover{
+    opacity: 0.5;
+    background-color:#64ffda;
+    color: #0b1930;
+  }
+
+  .navbar-elements{
+    top: 37px;
+    position: absolute;
+    left: 51%;
+    font-family: 'Fira Code', monospace;
+    font-weight: 200;
+    font-size: 13px;
+    color: #ccd7f5;
+    display: flex;
+    gap: 30px;  
+  }
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.link-about-me:link {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.link-about-me:visited{
+    color: #ccd7f5;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.link-about-me:hover{
+    color: #64ffda;
+}
+
+.my-education{
+    position:absolute;
+    padding-top: 1400px;
+    left: 30%;
+
+}
+
+.heading-my-education{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    color: #ccd7f5;
+    font-size: 25px;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+.my-contact{
+    position:absolute;
+    padding-top: 2200px;
+    left: 20%;
+
+}
+
+
+
+
+.what-next{
+    position: relative;
+    left: 50%;
+    color: #64ffda;
+    font-family: 'Fira Code',monospace;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.heading-contact{
+    padding-top: 10px;
+    position: relative;
+    font-weight: 600;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    color: #ccd7f5;
+    font-size: 55px;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    left: 35%;
+}
+
+.paragraph-contact{
+    text-align-last: center;
+    color: #8893af;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+
+.contact-link:link {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.contact-link:visited{
+    color: #ccd7f5;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.contact-link:hover{
+    color: #64ffda;
+}
+
+.mail-button{
+    position: relative;
+    left: 50%;
+    font-family: 'Fira Code', monospace;
+    font-weight: 100;
+    margin-top: 30px;
+    cursor: pointer;
+    background: transparent;
+    color: #64ffda;
+    font-size: 15px;
+    border-color: #64ffda;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    padding: 13px 30px;
+  }
+
+  .mail-button:hover{
+    opacity: 0.5;
+    background-color:#64ffda;
+    color: #0b1930;
+  }
+
+  .education-lists{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    color: #8893af;
+
+}
+
+.education-lists::before { 
+    content: "";
+    border-color: transparent #64ffda;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: px;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+  }
+
+  .link-to-my-education{
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.link-to-my-education:visited{
+    color: #ccd7f5;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.link-to-my-education:hover{
+    color: #64ffda;
+}
+
+.my-experience{
+    position:absolute;
+    padding-top: 1800px;
+    left: 20%;
+}
+
+.my-experience{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    color: #ccd7f5;
+    font-size: 25px;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+
+.my-experience-paragraph{
+    justify-content: center;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-top: 4%;
+    margin-bottom: 0%;
+    color: #8893af;
+    font-size: 17px;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+.link-to-my-experience:link {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.link-to-my-experience:visited{
+    color: #ccd7f5;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.link-to-my-experience:hover{
+    color: #64ffda;
+}
+
+.my-icon{
+    position: relative;
+    left: 20px;
+}
+
